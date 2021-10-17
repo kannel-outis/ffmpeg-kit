@@ -51,7 +51,7 @@ dependencies {
 //    implementation 'com.arthenica:ffmpeg-kit-https:4.5'
 //    implementation files('../../../../ffmpeg-kit/prebuilt/bundle-android-aar/ffmpeg-kit/ffmpeg-kit.aar')
 //    implementation files('../ffmpeg-binary/ffmpeg-kit.aar')
-    api ('com.github.kannel-outis:ffmpeg_opus_lib:v1.1.0@aar')
+    implementation ('com.github.kannel-outis:ffmpeg_opus_lib:v1.1.0@aar')
 //      implementation "com.github.HaarigerHarald:android-youtubeExtractor:master-SNAPSHOT"
 }
 
