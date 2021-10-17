@@ -436,6 +436,8 @@ fi
   --disable-vdpau \
   ${CONFIGURE_POSTFIX}\
   --disable-everything \
+    --enable-protocol=file \
+    --enable-encoder=mpeg4 \
     --enable-encoder=opus \
   1>>"${BASEDIR}"/build.log 2>&1
 
